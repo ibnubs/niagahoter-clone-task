@@ -1,11 +1,12 @@
 *{
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #0075FF;
+    
 }
 
 .holder-navbar{
     padding-top: 15px;
+    background-color: #0075FF;
 }
 
 a.nav-link{
@@ -13,9 +14,17 @@ a.nav-link{
     color: #ffffff;
 }
 
-.b-nav, .t-list, .hero{
+.b-nav, .t-list, .hero, .service{
     width: 1200px;
 }
+
+.services, .service{
+    background-color: #f6fbff;
+    height: 820px;
+}
+
+
+
 
 a.h-nav{
     font-size: 12px;
@@ -33,6 +42,7 @@ a.h-nav{
 .hero-outside{
     padding-top: 109px;
     padding-bottom: 68px;
+    background-color: #0075FF;
 }
 
 .hero-title{
@@ -112,4 +122,89 @@ a.h-nav{
 
 .hero-img{
     top: -100px;
+}
+
+/* service */
+
+.services{
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+.service-title{
+    background-color: #f6fbff;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 33px;
+    font-weight: 600;
+    
+}
+
+.img-serv{
+    width: 92px;
+    height: 92px;
+    background-color: #ffffff;
+    
+}
+
+.text-cust-card, .title-card, .text-card, .price-card, .start-card{
+    background-color: #ffffff;
+}
+
+.title-card{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-card{
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.start-card{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.price-card{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+div.col-3{
+    background-color: #f6fbff;
+}
+
+div.card{
+    padding: 55px 24px;
+}
+
+img.card-img-top.img-serv, div.card-body.text-cust-card{
+    width: 220px;
+}
+
+
+
+.card-custom{
+    border-radius: 10px !important;
+    height: 394px;
+    width: 260px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+}
+
+.card-down{
+    border-radius: 10px !important;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+    background-color: #f6fbff;
+}
+
+.color-custom1{
+    background-color: #f6fbff;
+}
+
+.color-custom{
+    background-color: #ffffff;
 }
