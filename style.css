@@ -661,3 +661,25 @@ width: 599px;
     font-size: 15px;
     font-weight: 600;
 }
+
+/* payment */
+
+.list-payment{
+    border: 2px #ffffff solid !important;
+    filter: grayscale(1);
+    opacity: 0.4;
+    width: auto;
+    margin: 10px 0;
+}
+
+.title-payment{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.row-payment{
+    margin-bottom: 40px;
+}
+
+/* success online */
