@@ -847,3 +847,97 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(17,26,104,.2);
 }
+
+
+/* domain css */
+/* hero-domain */
+
+.hero-domain{
+    background-color: #0075FF;
+    height: 487px;
+}
+
+.title-hero-domain{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 120px;
+}
+
+.title-hero-domain-1{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 177.3%;
+}
+
+.form-hero-domain{
+    margin-top: 60px;
+    
+    border: 1px solid red;
+    width: 1000px;
+}
+
+.domain-input-hero{
+    height: 50px;
+    width: 538px;
+    font-size: 14px;
+    color: rgb(58, 65, 102, .7 );
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 16px;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    margin-right: 40px;
+
+
+}
+
+.bungkus-input-domain{
+    padding: 0 200px;
+}
+
+.btn-size{
+    height: 50px;
+    background: #fff !important;
+    color: rgb(58, 65, 102, .7 ) !important;
+    border-radius: 4px;
+    border: none;
+    width: 134px;
+
+}
+
+.btn-hero-domain{
+    height: 50px;
+    width: 200px;
+    border: #fb8c00 1px solid;
+    border-radius: 4px;
+    margin-left: 15px;
+    background-color: #fb8c00;
+    padding-top: 14px;
+    text-align: center;
+}
+
+.btn-cek-domain{
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.r-custom{
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.c-custom{
+    padding: 0 150px !important;
+}
+
+.t-custom{
+    color: #fff;
+    font-size: 14px;
+    line-height: 12px;
+}
