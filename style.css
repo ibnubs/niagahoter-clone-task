@@ -942,10 +942,8 @@ a:hover {
 
 /* popular domain */
 .popular-domain{
-    border: 1px solid red;
-    height: 1200px;
+    height: 1100px;
     padding: 100px 0;
-
 }
 
 .title-page-domain{
@@ -1040,4 +1038,62 @@ a:hover {
     border: 1px solid gray;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(17,26,104,.2);
+}
+
+.domain-price{
+    border: 1px solid red;
+    height: 1200px;
+    padding: 100px 0;
+    
+}
+
+.find-domain{
+    width: 750px;
+    padding-top: 20px;
+}
+
+.input-domain{
+    height: 50px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #c4c4c4;
+}
+
+.kontainer-domain-tabel{
+    height: 800px;
+    width: 750px;
+    border: 1px black solid;
+}
+
+.col-thead-domain{
+    background-color: #0C7AFF;
+    color: #fff;
+    font-size: 22px;
+}
+
+.tr-domain{
+    height: 100px;
+}
+
+
+
+
+.bungkus-btn-domain{
+    text-align: center;
+    width: 172px;
+    padding: 20px 24px;
+    
+}
+
+
+.btn-tabel-domain{
+    font-size: 12px;
+    height: 32px;
+    font-weight: 600;
+    padding: 8px 30px;
+    color: #fff;
+    background: #fb8c00;
+    border: none;
+    border-radius: 4px;
+
 }
