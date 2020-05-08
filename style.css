@@ -838,7 +838,6 @@ a:hover {
 }
 
 .card-4{
-    
     margin-left: 20px;
     width: 260px;
     height: 394px;
@@ -928,7 +927,6 @@ a:hover {
 }
 
 .r-custom{
-    border: 1px solid red;
     margin-top: 10px;
 }
 
@@ -940,4 +938,106 @@ a:hover {
     color: #fff;
     font-size: 14px;
     line-height: 12px;
+}
+
+/* popular domain */
+.popular-domain{
+    border: 1px solid red;
+    height: 1200px;
+    padding: 100px 0;
+
+}
+
+.title-page-domain{
+    font-size: 33px;
+    text-align: center;
+    color: #3a4166;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.desc-title-page-domain{
+    margin-top: 30px;
+    font-weight: 400;
+    color: rgb(58, 65, 102, .7 );
+    text-align: center;
+    line-height: 177.3%;
+}
+
+.popular-card {
+    margin: auto;
+    width: 60%;
+}
+
+.title-card-domain{
+    font-weight: 700;
+    font-size: 34px;
+    color: #007aff;
+    padding: 30px 30px 0 30px;
+}
+
+.text-card-domain{
+    font-size: 14px;
+    margin-bottom: 24px;
+    height: 48px;
+    color: rgb(58, 65, 102, .7 );
+    line-height: 160%;
+}
+
+.price-card-domain{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.wrap-btn-popular{
+    color: #3a4166;
+    background-color: #fb8c00;
+    height: 40px;
+    width: 130px;
+    margin-top: 45px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 35px 12px 35px;
+
+}
+
+.btn-popular-card{
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    padding: 35px 8px 35px 12px;
+    font-weight: 600;
+}
+
+
+.card-1-domain{
+    margin-right: 20px;
+    width: 260px;
+    height: 360px;
+    margin-bottom: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+}
+
+.card-2-3-domain{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 260px;
+    height: 360px;
+    margin-bottom: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
+}
+
+.card-4-domain{
+    margin-left: 20px;
+    width: 260px;
+    height: 360px;
+    margin-bottom: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(17,26,104,.2);
 }
