@@ -239,24 +239,6 @@ img.card-img-top.img-serv, div.card-body.text-cust-card{
     padding-top: 80px;
 }
 
-
-.kotak{
-    border: 2px black solid;
-    height: 150px;  
-}
-
-
-.kotak-besar{
-    border: 2px black solid;
-    height: 1500px;
-    background-color: #F6FBFF;
-}
-
-
-
-
-
-
 .prio-img{
     width: 64px;
     height: 64px;
@@ -608,15 +590,7 @@ hr{
     margin-top: -40px;
 }
 
-.garis{
-    width: 1100px;
-    
-}
 
-.judul-faq{
-    font-size: 18px;
-    color: #3a4166;
-}
 
 /* guarantee */
 
@@ -1041,7 +1015,7 @@ a:hover {
 }
 
 .domain-price{
-    border: 1px solid red;
+    
     height: 1200px;
     padding: 100px 0;
     
@@ -1062,7 +1036,6 @@ a:hover {
 .kontainer-domain-tabel{
     height: 800px;
     width: 750px;
-    border: 1px black solid;
 }
 
 .col-thead-domain{
@@ -1074,8 +1047,6 @@ a:hover {
 .tr-domain{
     height: 100px;
 }
-
-
 
 
 .bungkus-btn-domain{
@@ -1096,4 +1067,195 @@ a:hover {
     border: none;
     border-radius: 4px;
 
+}
+
+/* tipsdomain */
+
+.tips-domain{
+    
+    background-color: #F6FBFF;
+    width: 100%;
+
+}
+
+.container-tips-domain{
+    height: 1200px;
+    width: 1150px;
+    
+    padding: 100px 0 80px 0;
+}
+
+.img-box-beli-domain{
+    height: 147px;
+    width: 40px !important;
+    padding: 50px 0 !important;
+    text-align: center;
+    padding-left: 30px !important;
+}
+
+.font-desc-beli-domain{
+    font-size: 14px;
+    line-height: 200%;
+    color: rgb(58, 65, 102, .7 );
+
+}
+
+.box-beli-domain{
+    position: relative;
+    z-index: 2;
+    width: 410px;
+    height:  147px;
+    margin-top: 50px;
+    margin-left: 48px !important;
+    background-color: #fff;
+    box-shadow:  0 6px 30px rgba(17,26,104,.1);
+    border-radius: 8px;
+}
+
+.font-beli-domain{
+    position: absolute;
+    font-size: 100px;
+    color: rgba(58,65,102,.1);
+    font-weight: bold;
+    z-index: 1;
+}
+
+.custom-btn-domain-bawah{
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+
+.btn-cek-domain-now{
+    font-size: 16px;
+    height: 50px;
+    width: 265px;
+    color: #fff;
+    background-color: #fb8c00;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 35px;
+}
+
+
+
+/* why-niagahoster */
+
+.why-niaga{
+    padding-top: 100px;
+    
+}
+
+.container-why-niaga{
+    
+    height: 900px;
+    width: 1150px;
+}
+
+
+
+.k-1{
+    border: 1px black solid;
+    height: 400px;
+}
+
+
+.k2{
+    border: 1px red solid;
+    height: 400px;
+}
+
+.img-article-whyniaga{
+width: 64px;
+height: 64px;
+margin-bottom: 30px;
+margin-top: 60px;
+}
+
+.title-article-whyniaga{
+font-size: 18px;
+line-height: 177%;
+font-weight: bolder ;
+color: #3a4166;
+}
+
+.desc-article-whyniaga{
+margin-top: 20px;
+font-size: 14px;
+color: rgb(58, 65, 102, .7 );
+}
+
+
+
+/* FAQ-Domain */
+
+.faq-domain{
+    padding-top: 100px;
+    
+}
+
+.container-faq-domain{
+    
+    height: 1500px;
+    width: 1150px;
+}
+
+.faq-answer{
+    line-height: 2em;
+    font-size: 16px;
+    opacity: .7;
+    color:#3a4166;
+}
+
+
+/* for FAQ */
+
+
+.garis{
+    width: 1200px;
+    
+}
+
+.judul-faq{
+    font-size: 18px;
+    color: #3a4166;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #3a4166;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight: 700;
+}
+
+.active, .accordion:hover {
+    background-color: #fff;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
